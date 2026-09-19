@@ -1,0 +1,1 @@
+const progress=document.querySelector('.scroll-progress');const updateProgress=()=>{const max=document.documentElement.scrollHeight-window.innerHeight;progress.style.width=(max>0?(window.scrollY/max)*100:0)+'%'};window.addEventListener('scroll',updateProgress,{passive:true});updateProgress();
