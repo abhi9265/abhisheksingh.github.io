@@ -1,13 +1,34 @@
 # Abhishek Singh — Portfolio
 
-Personal portfolio website for Abhishek Singh, Data Engineer.
+Personal portfolio for **Abhishek Singh**, Data Engineer.
 
 Live site: https://abhi9265.github.io/
 
-The site focuses on data engineering, real-time systems, AI-powered products, reliability, data quality, and product thinking.
+## What this site is for
+
+This is the single portfolio link used across GitHub, LinkedIn, resumes, recruiter conversations, and job applications.
+
+The site is intentionally focused on engineering evidence:
+
+- data platforms and lakehouse systems
+- real-time streaming and reliability
+- API/workflow automation
+- AI-powered product engineering
+- data quality, testing, observability, and failure handling
 
 ## Structure
-- `index.html` — page content
-- `styles.css` — visual system and responsive layout
+
+- `index.html` — portfolio content
+- `styles.css` — responsive design system
 - `script.js` — scroll progress enhancement
 - `assets/favicon.svg` — favicon
+- `.github/workflows/` — static-site validation / deployment automation
+
+## Portfolio projects
+
+1. AI Financial Reconciliation & Finance Intelligence Platform
+2. Energy Data Platform — Databricks
+3. Real-Time Customer Data Platform
+4. Salesforce → Databricks Deal Automation
+
+The site links back to the underlying repositories so the portfolio can be inspected rather than taken on trust.
