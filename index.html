@@ -138,6 +138,33 @@ AI should be used where it adds signal</pre>
   </div>
 </section>
 
+<section class="section section-rule architecture-section" id="architecture">
+  <div class="section-heading">
+    <div><p class="eyebrow">SYSTEM ARCHITECTURE</p><h2>From raw events to reliable products.</h2></div>
+    <p>I design around contracts, lineage, state, and recovery — not just transformations. The architecture below shows the common pattern across my engineering work.</p>
+  </div>
+  <div class="system-diagram">
+    <div class="diagram-row">
+      <div class="diagram-node"><small>01 · INGEST</small><strong>Sources</strong><span>APIs · Files · Events · CDC</span></div>
+      <b>→</b>
+      <div class="diagram-node"><small>02 · CONTRACT</small><strong>Validate</strong><span>Schema · DQ · Quarantine</span></div>
+      <b>→</b>
+      <div class="diagram-node"><small>03 · MODEL</small><strong>Normalize</strong><span>Canonical · Lineage · Identity</span></div>
+    </div>
+    <div class="diagram-connector">↓</div>
+    <div class="diagram-row">
+      <div class="diagram-node emphasis"><small>04 · PROCESS</small><strong>Compute</strong><span>PySpark · Streaming · SQL</span></div>
+      <b>→</b>
+      <div class="diagram-node emphasis"><small>05 · SERVE</small><strong>Products</strong><span>Gold · APIs · Analytics</span></div>
+      <b>→</b>
+      <div class="diagram-node emphasis"><small>06 · OPERATE</small><strong>Observe</strong><span>Tests · Metrics · Audit · Alerts</span></div>
+    </div>
+  </div>
+  <div class="architecture-principles">
+    <span>Idempotency</span><span>Replayability</span><span>Data Contracts</span><span>Lineage</span><span>Failure Isolation</span><span>Observability</span><span>Security</span><span>Human-in-the-loop</span>
+  </div>
+</section>
+
 <section class="section split-section" id="experience">
   <div class="section-intro sticky-intro">
     <p class="eyebrow">EXPERIENCE</p>
