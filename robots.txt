@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://abhi9265.github.io/abhisheksingh.github.io/sitemap.xml
